@@ -3,7 +3,7 @@
 
 				1.Download tools and platform tools and create folder named (android-sdk) place those downloaded this inside that newly created folder.
 
-tools(comandline-toole) ===> https://developer.android.com/studio/?gclid=Cj0KCQjwhb36BRCfARIsAKcXh6GHAqNAlsdWMeF-C0hYJQEXifpK9W4RstktDx9Hgl9FnQ2-e6kjKc8aAt1MEALw_wcB&gclsrc=aw.ds
+tools(comandline-tool) ===> https://developer.android.com/studio/?gclid=Cj0KCQjwhb36BRCfARIsAKcXh6GHAqNAlsdWMeF-C0hYJQEXifpK9W4RstktDx9Hgl9FnQ2-e6kjKc8aAt1MEALw_wcB&gclsrc=aw.ds
 
 Platform-tools ===> https://developer.android.com/studio/releases/platform-tools
 
@@ -23,7 +23,7 @@ Platform-tools ===> https://developer.android.com/studio/releases/platform-tools
 # It must show the installed adb version
 Android Debug Bridge version 1.0.41
 Version 29.0.2-5738569
-Installed as /drivea/java/android/android-sdk/platform-tools/adb
+Installed as /home/abijith/android-sdk/platform-tools/adb
 
 # Check sdkmanager version
 >sdkmanager --version
