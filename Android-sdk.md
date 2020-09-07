@@ -1,7 +1,7 @@
 # ANDROID-SDK ==> LINUX
 
 
-				1.Download tools and platform tools and create folder named (android-sdk) place those downloaded this inside that newly created folder.
+				1.Download tools and platform tools and create folder named (android-sdk) place those downloaded things inside that newly created folder(android-sdk).
 
 tools(comandline-tool) ===> https://developer.android.com/studio/?gclid=Cj0KCQjwhb36BRCfARIsAKcXh6GHAqNAlsdWMeF-C0hYJQEXifpK9W4RstktDx9Hgl9FnQ2-e6kjKc8aAt1MEALw_wcB&gclsrc=aw.ds
 
