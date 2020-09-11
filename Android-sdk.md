@@ -98,6 +98,6 @@ ERROR ====> ANDROID_SDK_ROOT=undefined (recommended setting)
 
 > For apk use this --> zipalign -v 4 app-release-unsigned.apk farmbee0.0.1.apk
 
-# And Guys don't for to change your app name insteed of this "farmbee0.0.1.apk" "farmbee0.0.1.aab"
+# And Guys don't forget to change your app name insteed of this "farmbee0.0.1.apk" "farmbee0.0.1.aab"
 
 
