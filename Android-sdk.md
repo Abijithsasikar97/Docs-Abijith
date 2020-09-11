@@ -84,7 +84,7 @@ ERROR ====> ANDROID_SDK_ROOT=undefined (recommended setting)
 ***After taking release build we want to take aab build, use bellow command to take***
 > cd platforms/android
 
-> ./gradlew bundle #this will generate .aab file inside the folder /home/abijith/Desktop/Devroot/Testing-homz/Homz-prod/platforms/android/app/build/outputs/bundle/release
+> ./gradlew bundle #this will generate .aab file inside the folder /home/abijith/Desktop/Devroot/Testing-homz/farmbee-prod/platforms/android/app/build/outputs/bundle/release
 
 ***To sigin that aab or apk just create a new folder and copy those aab or unsigned apk to that folder.After navigate to that folder and use bellow command***
 
