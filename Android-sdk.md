@@ -68,3 +68,36 @@ ERROR ====> ANDROID_SDK_ROOT=undefined (recommended setting)
 
 >export PATH=$PATH:$HOME/Documents/gradle-5.6.1/bin
 
+		Cheers we finished our setup, will see how to take apk build and aab without Android studio using this command line tools!
+		
+# For Taking debug build just use command below(Ionic)
+
+> ionic cordova build android --prod 
+
+***We using --prod to optimize the files ***
+
+# aab BUILD FOLLOW BELLOW STEPS
+
+***First take release build with bellow command***
+> ionic cordova build android --prod --release --minifyjs --minifycss --optimizejs --release
+
+***After taking release build we want to take aab build, use bellow command to take***
+> cd platforms/android
+
+> ./gradlew bundle #this will generate .aab file inside the folder /home/abijith/Desktop/Devroot/Testing-homz/Homz-prod/platforms/android/app/build/outputs/bundle/release
+
+***To sigin that aab or apk just create a new folder and copy those aab or unsigned apk to that folder.After navigate to that folder and use bellow command***
+
+> For apk use this --> jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release-unsigned.apk alias_name
+
+> For aab use this --> jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release.aab alias_name
+
+***After this it will ask keystore password, after entering password use bellow to command***
+
+> For aab use this --> zipalign -v 4 app-release.aab farmbee0.0.1.aab
+
+> For apk use this --> zipalign -v 4 app-release-unsigned.apk farmbee0.0.1.apk
+
+# And Guys don't for to change your app insteed of this "farmbee0.0.1.apk" "farmbee0.0.1.aab"
+
+
