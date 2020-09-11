@@ -92,12 +92,12 @@ ERROR ====> ANDROID_SDK_ROOT=undefined (recommended setting)
 
 > For aab use this --> jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore app-release.aab alias_name
 
-***After this it will ask keystore password, after entering password use bellow to command***
+***After this it will ask keystore password, after entering password use bellow command***
 
 > For aab use this --> zipalign -v 4 app-release.aab farmbee0.0.1.aab
 
 > For apk use this --> zipalign -v 4 app-release-unsigned.apk farmbee0.0.1.apk
 
-# And Guys don't for to change your app insteed of this "farmbee0.0.1.apk" "farmbee0.0.1.aab"
+# And Guys don't for to change your app name insteed of this "farmbee0.0.1.apk" "farmbee0.0.1.aab"
 
 
